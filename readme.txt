@@ -1,1 +1,0 @@
-Photo by Malte Luk from Pexels
