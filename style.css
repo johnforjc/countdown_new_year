@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 *
 {
@@ -70,6 +71,24 @@
     letter-spacing: 5px;
 }
 
+.quote-box
+{
+    padding-top: 20px;
+    width: 60%;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-text
+{
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
 @media only screen and (min-width: 600px)
 {
     .content{
@@ -82,5 +101,10 @@
 
     .content h3{
         font-size: 60px;
+    }
+
+    #quote-text
+    {
+        font-size: 30px;
     }
 }
